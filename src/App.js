@@ -14,8 +14,8 @@ import HooksCounterThree from './Components/StateHook/HooksCounterThree';
 import HooksCounterTwo from './Components/StateHook/HooksCounterTwo';
 import MouseContainer from './Components/StateHook/MouseContainer';
 // import ComponentC from './Components/ContextHook/ComponentC';
-import CounterOne from './Components/ReducerHook/CounterOne';
-import CounterTwo from './Components/ReducerHook/CounterTwo';
+// import CounterOne from './Components/ReducerHook/CounterOne';
+// import CounterTwo from './Components/ReducerHook/CounterTwo';
 import CounterThree from './Components/ReducerHook/CounterThree';
 import ComponentA from './Components/Context_ReducerHooks/ComponentA';
 import ComponentB from './Components/Context_ReducerHooks/ComponentB';
@@ -27,6 +27,11 @@ import Counter from './Components/MemoHook/Counter';
 import FocusInput from './Components/RefHook/FocusInput';
 import ClassTimer from './Components/RefHook/ClassTimer';
 import HookTimer from './Components/RefHook/HookTimer';
+import DocTitleOne from './Components/CustomHooks/DocTitleOne';
+import DocTitleTwo from './Components/CustomHooks/DocTitleTwo';
+import CounterOne from './Components/CustomHooks/CounterOne';
+import CounterTwo from './Components/CustomHooks/CounterTwo';
+import UserForm from './Components/CustomHooks/UserForm';
 
 export const CountContext = React.createContext()
 
@@ -53,7 +58,12 @@ function App() {
 
   return (
     <div className="App">
-      <HookTimer/>
+      <UserForm/>
+      {/* <CounterOne/>
+      <CounterTwo/> */}
+      {/* <DocTitleOne/>
+      <DocTitleTwo/> */}
+      {/* <HookTimer/> */}
       {/* <ClassTimer/> */}
       {/* <FocusInput/> */}
       {/* <Counter/> */}
