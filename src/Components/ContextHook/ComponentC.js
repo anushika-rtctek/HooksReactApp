@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import ComponentF from './ComponentF'
-import { UserContext, AreaContext } from '../App'
+import { UserContext, AreaContext } from '../../App'
 
 function ComponentC() {
     const user = useContext(UserContext)

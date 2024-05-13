@@ -1,5 +1,5 @@
 import React from 'react'
-import {UserContext, AreaContext} from '../App.js'
+import {UserContext, AreaContext} from '../../App.js'
 
 function ComponentF() {
   return (
